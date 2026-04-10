@@ -23,7 +23,9 @@ setup(
         ],
     },
     entry_points={
-        'console_scripts': ['spawn_target = turtle_scanner_steve_regis.spawn_target:main',
-        ],
-    },
+    'console_scripts': [
+        'spawn_target = turtle_scanner_steve_regis.spawn_target:main',
+        'scanner_node = turtle_scanner_steve_regis.turtle_scanner_node:main',
+    ],
+},
 )
